@@ -1,0 +1,28 @@
+name: basic
+channels:
+    - conda-forge
+    - anaconda
+    - bioconda
+dependencies:
+    - python=3.8
+    - notebook
+    - jupyterlab==3.0.3
+    - ipython
+    - pandas
+    - scikit-learn
+    - joblib
+    - matplotlib
+    - pytest
+    - pycodestyle=2.4.0
+    - pylint
+    - black
+    - pyyaml
+    - seaborn
+    - requests
+    - tqdm
+    - nodejs
+    - pyqt 
+    - boto3
+    - s3fs
+    - setuptools-rust
+    - maturin 

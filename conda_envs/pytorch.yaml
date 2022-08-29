@@ -1,0 +1,27 @@
+name: pytorch
+channels:
+    - conda-forge
+    - pytorch
+    - anaconda
+    - bioconda
+dependencies:
+    - python=3.8
+    - notebook
+    - jupyterlab==3.0.3
+    - ipython
+    - pandas
+    - matplotlib
+    - pytest
+    - pycodestyle=2.4.0
+    - black
+    - pyyaml
+    - seaborn
+    - tqdm
+    - nodejs
+    - pyqt
+    - boto3
+    - s3fs
+    - pytorch
+    - torchvision
+    - torchaudio
+

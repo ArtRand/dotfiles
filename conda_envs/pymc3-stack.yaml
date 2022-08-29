@@ -1,0 +1,25 @@
+name: pymc3_stack
+channels:
+    - conda-forge
+    - anaconda
+dependencies:
+    - python=3.6
+    - notebook
+    - jupyterlab
+    - ipython
+    - pymc3
+    - pandas
+    - scikit-learn
+    - pyarrow
+    - joblib
+    - matplotlib
+    - pytest
+    - pycodestyle=2.4.0
+    - black
+    - pyyaml
+    - boto3
+    - seaborn
+    - s3fs
+    - requests
+    - tqdm
+    - nodejs

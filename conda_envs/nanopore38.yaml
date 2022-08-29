@@ -1,0 +1,45 @@
+name: nanopore
+channels:
+    - conda-forge
+    - anaconda
+    - bioconda
+dependencies:
+    - python=3.8
+    - notebook
+    - jupyterlab
+    - ipython
+    - pandas
+    - scikit-learn
+    - joblib
+    - pymc3
+    - matplotlib
+    - pytest
+    - pycodestyle=2.4.0
+    - pylint
+    - black
+    - pyyaml
+    - seaborn
+    - requests
+    - tqdm
+    - nodejs
+    - bokeh
+    - ipympl 
+    - pywavelets
+    - biopython
+    - pybedtools
+    - bedtools
+    - htslib
+    - samtools
+    - pyqt 
+    - boto3
+    - s3fs
+    - nptdms
+    - setuptools-rust
+    - python-graphviz 
+    - pip
+    - pip:
+        - tensorflow>=2
+        - tensorflow-datasets
+        - tensorflow-addons
+        - pyabf
+
